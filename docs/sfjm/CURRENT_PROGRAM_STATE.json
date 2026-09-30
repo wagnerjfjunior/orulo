@@ -1,0 +1,46 @@
+{
+  "project_id": "orulo-integration",
+  "as_of": "2026-09-30",
+  "primary_objective_status": "ACTIVE",
+  "milestones": [
+    {
+      "id": "ORL-M0",
+      "name": "Repository + technical bootstrap",
+      "status": "IMPLEMENTED_ON_FEATURE_BRANCH"
+    },
+    {
+      "id": "ORL-M1",
+      "name": "Órulo provider onboarding and entitlement validation",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ORL-M2",
+      "name": "Authenticated catalogue smoke and response contract validation",
+      "status": "BLOCKED_PENDING_PROVIDER_AND_AUTHORIZATION"
+    },
+    {
+      "id": "ORL-M3",
+      "name": "Persistence/export architecture",
+      "status": "PLANNED"
+    },
+    {
+      "id": "ORL-M4",
+      "name": "Catalogue/search/decision-support product",
+      "status": "PLANNED"
+    },
+    {
+      "id": "ORL-M5",
+      "name": "Production release and measurement",
+      "status": "PLANNED"
+    }
+  ],
+  "current_gate": "Waiting for Órulo integration conditions/credentials",
+  "next_safe_action": "Receive and classify the next Órulo response; prepare a bounded validation plan consistent with the granted entitlement.",
+  "blocked": [
+    "commit or paste secrets",
+    "execute live OAuth/API smoke without explicit authorization",
+    "infer API entitlement from documentation",
+    "persist oruloEndUserAuth-only data",
+    "deploy or index a public catalogue without separate release governance"
+  ]
+}

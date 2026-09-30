@@ -1,0 +1,18 @@
+{
+  "project_id": "orulo-integration",
+  "project_name": "Órulo Integration",
+  "canonical_source": "wagnerjfjunior/orulo",
+  "canonical_ref_rule": "resolve_live_main",
+  "bootstrap": "bootstrap/BOOTSTRAP_CANONICO.md",
+  "continuity": "handoffs/CURRENT.md",
+  "status": "docs/PROJECT_STATUS.md",
+  "next_safe_action": "docs/NEXT_SAFE_ACTION.md",
+  "blocked_actions": "docs/BLOCKED_ACTIONS.md",
+  "primary_objective": "Construir uma integração oficial, segura e auditável com a API v2 da Órulo para consumir e normalizar catálogo imobiliário e suportar pesquisa, exportação e decisão sem scraping nem uso indevido de dados restritos.",
+  "active_workstream": "ORL-M1 Provider onboarding and entitlement validation",
+  "authority": {
+    "project": "wagnerjfjunior/orulo",
+    "sfjm_protocol": "wagnerjfjunior/StopJuniorMode",
+    "workspace": "wagnerjfjunior/sfjm-workspace"
+  }
+}

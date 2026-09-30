@@ -1,0 +1,89 @@
+{
+  "schema_version": "sfjm.project-program.v1",
+  "generated_for": "SFJM Workspace read-only consumption",
+  "project": {
+    "project_id": "orulo-integration",
+    "name": "Órulo Integration",
+    "repository": "wagnerjfjunior/orulo"
+  },
+  "graph_version": 1,
+  "nodes": [
+    {
+      "id": "ORL-M0",
+      "type": "milestone",
+      "status": "IMPLEMENTED_ON_FEATURE_BRANCH",
+      "children": [
+        "ORL-M0-01",
+        "ORL-M0-02"
+      ]
+    },
+    {
+      "id": "ORL-M0-01",
+      "type": "task",
+      "status": "COMPLETE",
+      "title": "Initialize repository"
+    },
+    {
+      "id": "ORL-M0-02",
+      "type": "task",
+      "status": "IMPLEMENTED_ON_FEATURE_BRANCH",
+      "title": "Implement mock-mode Órulo API bootstrap and SFJM continuity layer"
+    },
+    {
+      "id": "ORL-M1",
+      "type": "milestone",
+      "status": "ACTIVE",
+      "children": [
+        "ORL-M1-01"
+      ]
+    },
+    {
+      "id": "ORL-M1-01",
+      "type": "task",
+      "status": "NEXT_SAFE_ACTION",
+      "title": "Receive and classify Órulo integration response"
+    },
+    {
+      "id": "ORL-M2",
+      "type": "milestone",
+      "status": "BLOCKED_PENDING_PROVIDER_AND_AUTHORIZATION",
+      "depends_on": [
+        "ORL-M1"
+      ],
+      "children": [
+        "ORL-M2-01"
+      ]
+    },
+    {
+      "id": "ORL-M2-01",
+      "type": "task",
+      "status": "BLOCKED",
+      "title": "Execute bounded authenticated API smoke"
+    },
+    {
+      "id": "ORL-M3",
+      "type": "milestone",
+      "status": "PLANNED",
+      "depends_on": [
+        "ORL-M2"
+      ]
+    },
+    {
+      "id": "ORL-M4",
+      "type": "milestone",
+      "status": "PLANNED",
+      "depends_on": [
+        "ORL-M2"
+      ]
+    },
+    {
+      "id": "ORL-M5",
+      "type": "milestone",
+      "status": "PLANNED",
+      "depends_on": [
+        "ORL-M3",
+        "ORL-M4"
+      ]
+    }
+  ]
+}
