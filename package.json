@@ -1,0 +1,16 @@
+{
+  "name": "orulo-integration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "check": "node --check api/health.js && node --check api/orulo/buildings.js && node --check src/orulo/client.js && node --check src/orulo/normalize.js && node --check src/orulo/mock-data.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "vercel": "^48.0.0"
+  }
+}
